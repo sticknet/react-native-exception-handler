@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+id eh_quit_button
+id textView
+layout default_error_screen
+string show_error_details

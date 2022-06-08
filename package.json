@@ -1,0 +1,20 @@
+{
+  "name": "@sticknet/react-native-exception-handler",
+  "version": "1.0.0",
+  "description": "[![https://nodei.co/npm/react-native-exception-handler.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/react-native-exception-handler.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-native-exception-handler)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarBasem/react-native-exception-handler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/OmarBasem/react-native-exception-handler/issues"
+  },
+  "homepage": "https://github.com/OmarBasem/react-native-exception-handler#readme"
+}

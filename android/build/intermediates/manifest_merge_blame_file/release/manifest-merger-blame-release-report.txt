@@ -1,0 +1,21 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.masteratul.exceptionhandler"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/omar/Dev/STiiiCK-app/node_modules/react-native-exception-handler/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/omar/Dev/STiiiCK-app/node_modules/react-native-exception-handler/android/src/main/AndroidManifest.xml
+10
+11    <application>
+11-->/Users/omar/Dev/STiiiCK-app/node_modules/react-native-exception-handler/android/src/main/AndroidManifest.xml:5:5-8:19
+12        <activity android:name="com.masteratul.exceptionhandler.DefaultErrorScreen" >
+12-->/Users/omar/Dev/STiiiCK-app/node_modules/react-native-exception-handler/android/src/main/AndroidManifest.xml:6:9-7:20
+12-->/Users/omar/Dev/STiiiCK-app/node_modules/react-native-exception-handler/android/src/main/AndroidManifest.xml:6:19-53
+13        </activity>
+14    </application>
+15
+16</manifest>

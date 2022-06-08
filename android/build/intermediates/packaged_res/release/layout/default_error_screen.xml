@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:visibility="visible">
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="Unexpected error!"/>
+        <ImageView
+            android:tint="#FFC107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_dialog_info"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="An unexpected error has occurred. The error has been reported to our development team. Please, restart the application." />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/eh_quit_button"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUIT"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
